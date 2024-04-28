@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     box.addEventListener("mouseover", function () {
       box.style.backgroundColor = getRandomColor();
       setTimeout(() => {
-        box.style.backgroundColor = '#ccc';
+        box.style.backgroundColor = 'rgb(29, 29, 29)';
       }, 1000);
     });
   }
